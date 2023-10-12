@@ -1,0 +1,127 @@
+#navlist
+{
+    list-style: none;
+    text-decoration: none;    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cont
+{
+    height: 100vh;
+    width: 100vw;
+    overflow-x:none  ;
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+    
+
+}
+.navcon
+{
+    width: 100vw;
+    /* background-color:rgba(168, 121, 199, 0.496); */
+    background-color: #8EC5FC;
+    background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);;
+
+    min-height: 80px ;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+nav{
+    width:100%;
+    padding-right: 2rem;
+ }
+
+#navhead
+{
+    font-size: 2.5rem;
+    font-style: initial;
+    font-variant: small-caps;
+    color: white;
+}
+
+#logo
+{
+    font-size: 1.9rem;
+    display: flex;
+    justify-content: space-between;
+
+
+    
+    
+} 
+#navlist
+{
+    padding: 12px;
+    width: 100%;
+    /* margin-left: 15px;
+    margin-right: right; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.anchor
+{
+
+   
+    height:15px;
+}
+
+a{
+    text-decoration: none;
+    color:white ;
+}
+img
+{
+    height: 50px;
+    border-radius: 50px;
+}
+#hi
+{
+    display: flex;
+}
+.form{
+        width: 300px;
+        padding: 16px;
+        background-color: white;
+        margin: 0 auto;
+        height: 275px;
+        margin-top: 100px;
+        border: 1px solid black;
+        border-radius: 4px;
+        
+}
+/* #form
+{
+    display: flex;
+    flex-direction: column;
+    border: 2px black solid;
+    width: 50%;
+    margin: auto;
+    margin-top: 15%;
+    height: 240px;
+    overflow:none;
+} */
+input[type=text], input[type=email] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 3px;    
+    margin: 8px 0;
+}
+.button{
+    display: flex;
+    justify-content: space-evenly;
+    transition:  all 0.3s linear 0s;
+    
+}
+.button  :hover{
+    transition: scale(1.1);
+    
+}
