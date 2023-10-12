@@ -13,9 +13,18 @@
     height: 100vh;
     width: 100vw;
     overflow-x:none  ;
-    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
-    
-
+    background-image: url(care.jpg);
+    background-repeat: none; 
+    background-repeat: no-repeat;
+    background-position: center;   
+    min-height: 100vh;
+    object-fit: fill    ;
+            position: relative;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-size: cover;
 }
 .navcon
 {
@@ -88,13 +97,17 @@ img
 .form{
         width: 300px;
         padding: 16px;
-        background-color: white;
+        background-color: transparent;
         margin: 0 auto;
-        height: 275px;
+        margin-left:200px;
+        height: 300px;
         margin-top: 100px;
-        border: 1px solid black;
-        border-radius: 4px;
-        
+        border: 2px solid white;
+        border-radius: 10px;
+        color: white;
+        font-weight: bold;
+        opacity: 0.8;
+        /* box-shadow: 3px 3px 10px 3px white; */
 }
 /* #form
 {
@@ -115,13 +128,48 @@ input[type=text], input[type=email] {
     border-radius: 3px;    
     margin: 8px 0;
 }
-.button{
+
+#bt1 {
     display: flex;
     justify-content: space-evenly;
-    transition:  all 0.3s linear 0s;
-    
+    transition: all 0.3s linear 0s;
 }
-.button  :hover{
-    transition: scale(1.1);
-    
+
+#bt1:hover {
+    transform: scale(1.2);
+    box-shadow: 3px 3px 3px black;
+    color: #fff;
+    text-decoration: none;
+}
+
+#bt2 {
+    display: flex;
+    justify-content: space-evenly;
+    transition: all 0.3s linear 0s;
+}
+
+#bt2:hover {
+    transform: scale(1.2);
+    box-shadow: 3px 3px 3px black;
+    color: #fff;
+    text-decoration: none;
+}
+button{
+    color: blue;
+    background-color: green;
+    background-image: linear-gradient(to right, #E55D87 0%, #5FC3E4  51%, #E55D87  100%);
+        padding: 10px 20px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;            
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        font-weight: bold;
+        display: block;
+
+}
+.button{
+    display: flex;
 }
